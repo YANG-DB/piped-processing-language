@@ -1,0 +1,11 @@
+/*
+ * Copyright OpenSearch Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+
+rootProject.name = 'opensearch-ppl'
+include 'ppl'
+include 'common'
+include 'core'
+include 'protocol'

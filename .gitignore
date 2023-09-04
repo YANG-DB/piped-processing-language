@@ -1,0 +1,52 @@
+*.class
+*.http
+.settings/
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+.classpath
+.project
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+bin/
+/target/
+log/
+elasticsearch-sql.iml
+src/_site/vendor/codemirror/mode/jinja2/.goutputstream-*
+src/_site/node_modules
+src/site-server/node_modules
+*~
+.local-*
+/out/
+.gradle/
+build/
+gen/
+*.tokens
+
+# various IDE files
+.vscode
+.idea
+.history
+
+# git mergetool artifact
+*.orig
+gen
+
+# Python
+*/.venv
+*/__pycache__
+*.iml
+.DS_Store
+
+/artifacts/
+/.pid.lock
+/.prom.pid.lock
+
+.java-version
+.worktrees
+http-client.env.json
+/doctest/sql-cli/
+.factorypath
