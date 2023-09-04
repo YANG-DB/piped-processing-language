@@ -5,7 +5,13 @@
 
 package org.opensearch.sql.ast.tree;
 
+import static org.opensearch.sql.ast.tree.Sort.NullOrder.NULL_FIRST;
+import static org.opensearch.sql.ast.tree.Sort.NullOrder.NULL_LAST;
+import static org.opensearch.sql.ast.tree.Sort.SortOrder.ASC;
+import static org.opensearch.sql.ast.tree.Sort.SortOrder.DESC;
+
 import com.google.common.collect.ImmutableList;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -14,13 +20,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.expression.Field;
-
-import java.util.List;
-
-import static org.opensearch.sql.ast.tree.Sort.NullOrder.NULL_FIRST;
-import static org.opensearch.sql.ast.tree.Sort.NullOrder.NULL_LAST;
-import static org.opensearch.sql.ast.tree.Sort.SortOrder.ASC;
-import static org.opensearch.sql.ast.tree.Sort.SortOrder.DESC;
 
 /** AST node for Sort {@link Sort#sortList} represent a list of sort expression and sort options. */
 @ToString

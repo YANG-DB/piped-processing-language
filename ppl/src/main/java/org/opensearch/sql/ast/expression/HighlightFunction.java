@@ -5,14 +5,13 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.List;
+import java.util.Map;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.List;
-import java.util.Map;
 
 /** Expression node of Highlight function. */
 @AllArgsConstructor

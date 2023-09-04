@@ -5,13 +5,12 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 /** Expression node that includes a list of RelevanceField nodes. */
 @EqualsAndHashCode(callSuper = false)

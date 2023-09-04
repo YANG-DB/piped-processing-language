@@ -6,10 +6,9 @@
 package org.opensearch.sql.ast.expression;
 
 import com.google.common.collect.ImmutableList;
+import java.util.List;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-
-import java.util.List;
 
 @Getter
 @RequiredArgsConstructor

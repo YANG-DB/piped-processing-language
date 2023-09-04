@@ -5,6 +5,9 @@
 
 package org.opensearch.sql.ast.dsl;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import lombok.experimental.UtilityClass;
 import org.apache.commons.lang3.tuple.Pair;
 import org.opensearch.sql.ast.expression.AggregateFunction;
@@ -58,10 +61,6 @@ import org.opensearch.sql.ast.tree.Sort.SortOption;
 import org.opensearch.sql.ast.tree.TableFunction;
 import org.opensearch.sql.ast.tree.UnresolvedPlan;
 import org.opensearch.sql.ast.tree.Values;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /** Class of static methods to create specific node instances. */
 @UtilityClass

@@ -5,14 +5,13 @@
 
 package org.opensearch.sql.ast.tree;
 
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.Node;
-
-import java.util.List;
 
 /** AST node to represent pagination operation. Actually a wrapper to the AST. */
 @RequiredArgsConstructor

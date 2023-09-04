@@ -5,21 +5,6 @@
 
 package org.opensearch.sql.ast.expression;
 
-import com.google.common.collect.ImmutableMap;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.ToString;
-import org.opensearch.sql.ast.AbstractNodeVisitor;
-import org.opensearch.sql.ast.Node;
-import org.opensearch.sql.data.type.ExprType;
-import org.opensearch.sql.expression.function.FunctionName;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_BOOLEAN;
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_BYTE;
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_DATE;
@@ -32,6 +17,20 @@ import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_STRING;
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_TIME;
 import static org.opensearch.sql.expression.function.BuiltinFunctionName.CAST_TO_TIMESTAMP;
+
+import com.google.common.collect.ImmutableMap;
+import java.util.Collections;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+import org.opensearch.sql.ast.AbstractNodeVisitor;
+import org.opensearch.sql.ast.Node;
+import org.opensearch.sql.data.type.ExprType;
+import org.opensearch.sql.expression.function.FunctionName;
 
 /** AST node that represents Cast clause. */
 @AllArgsConstructor

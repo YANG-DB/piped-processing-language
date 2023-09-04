@@ -5,10 +5,9 @@
 
 package org.opensearch.sql.ast.tree;
 
+import java.util.List;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.Node;
-
-import java.util.List;
 
 /** AST node to represent close cursor operation. Actually a wrapper to the AST. */
 public class CloseCursor extends UnresolvedPlan {

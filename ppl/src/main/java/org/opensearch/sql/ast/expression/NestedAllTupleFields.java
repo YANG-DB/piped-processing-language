@@ -5,14 +5,13 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.Collections;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.Node;
-
-import java.util.Collections;
-import java.util.List;
 
 /** Represents all tuple fields used in nested function. */
 @RequiredArgsConstructor

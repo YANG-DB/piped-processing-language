@@ -5,6 +5,8 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.Collections;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -12,9 +14,6 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.common.utils.StringUtils;
-
-import java.util.Collections;
-import java.util.List;
 
 /**
  * Expression node of aggregate functions. Params include aggregate function name (AVG, SUM, MAX

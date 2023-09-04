@@ -6,13 +6,12 @@
 package org.opensearch.sql.ast.expression;
 
 import com.google.common.collect.ImmutableList;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.List;
 
 /** Span expression node. Params include field expression and the span value. */
 @Getter

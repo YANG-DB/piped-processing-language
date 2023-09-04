@@ -6,12 +6,11 @@
 package org.opensearch.sql.ast.expression;
 
 import com.google.common.collect.ImmutableList;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.List;
 
 /**
  * Expression node of literal type Params include literal value (@value) and literal data type

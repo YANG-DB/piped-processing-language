@@ -5,14 +5,13 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Expression node of scalar function. Params include function name (@funcName) and function

@@ -5,14 +5,13 @@
 
 package org.opensearch.sql.ast.expression;
 
+import java.util.Collections;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
-
-import java.util.Collections;
-import java.util.List;
 
 @Getter
 @ToString

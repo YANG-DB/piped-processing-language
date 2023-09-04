@@ -6,6 +6,8 @@
 package org.opensearch.sql.ast.tree;
 
 import com.google.common.collect.ImmutableList;
+import java.util.Collections;
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,9 +15,6 @@ import lombok.ToString;
 import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.expression.Argument;
 import org.opensearch.sql.ast.expression.UnresolvedExpression;
-
-import java.util.Collections;
-import java.util.List;
 
 /** Logical plan node of Project, the interface for building the list of searching fields. */
 @ToString

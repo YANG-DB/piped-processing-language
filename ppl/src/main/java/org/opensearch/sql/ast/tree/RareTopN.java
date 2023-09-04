@@ -5,6 +5,8 @@
 
 package org.opensearch.sql.ast.tree;
 
+import java.util.Collections;
+import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -15,9 +17,6 @@ import org.opensearch.sql.ast.AbstractNodeVisitor;
 import org.opensearch.sql.ast.expression.Argument;
 import org.opensearch.sql.ast.expression.Field;
 import org.opensearch.sql.ast.expression.UnresolvedExpression;
-
-import java.util.Collections;
-import java.util.List;
 
 /** AST node represent RareTopN operation. */
 @Getter

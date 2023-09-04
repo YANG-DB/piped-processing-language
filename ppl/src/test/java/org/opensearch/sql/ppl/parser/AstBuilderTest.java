@@ -39,6 +39,7 @@ import static org.opensearch.sql.ast.dsl.AstDSL.span;
 import static org.opensearch.sql.ast.dsl.AstDSL.stringLiteral;
 import static org.opensearch.sql.ast.dsl.AstDSL.tableFunction;
 import static org.opensearch.sql.ast.dsl.AstDSL.unresolvedArg;
+import static org.opensearch.sql.utils.SystemIndexUtils.DATASOURCES_TABLE_NAME;
 
 import com.google.common.collect.ImmutableMap;
 import java.util.Arrays;
@@ -729,6 +730,7 @@ public class AstBuilderTest {
   public static String mappingTable(String indexName) {
     return String.join(".", indexName, SYS_MAPPINGS_SUFFIX);
   }
+
   @Test
   public void test_batchRCFADCommand() {
     assertEqual("source=t | AD", new AD(relation("t"), ImmutableMap.of()));

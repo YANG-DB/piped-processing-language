@@ -5,10 +5,9 @@
 
 package org.opensearch.sql.ast;
 
+import java.util.List;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
-
-import java.util.List;
 
 /** AST node. */
 @EqualsAndHashCode

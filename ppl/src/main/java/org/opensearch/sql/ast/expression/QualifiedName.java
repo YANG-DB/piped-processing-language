@@ -5,20 +5,19 @@
 
 package org.opensearch.sql.ast.expression;
 
-import com.google.common.collect.ImmutableList;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import org.opensearch.sql.ast.AbstractNodeVisitor;
+import static java.util.Objects.requireNonNull;
+import static java.util.stream.Collectors.toList;
 
+import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.StreamSupport;
-
-import static java.util.Objects.requireNonNull;
-import static java.util.stream.Collectors.toList;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import org.opensearch.sql.ast.AbstractNodeVisitor;
 
 @Getter
 @EqualsAndHashCode(callSuper = false)
